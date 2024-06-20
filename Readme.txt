@@ -1,3 +1,7 @@
+You can run the app directly on Streamlit Cloud by clicking the link below:
+
+[Bangalore Restaurants Success Predictor App](bangalore-restaurants-success-predictor-project-g7fhutiufsehbu.streamlit.app)
+
 1- Overview:
 This project aims to predict restaurant success in Bangalore, India, using a dataset scraped from Zomato website on 2020. It involves thorough exploratory data analysis (EDA) and machine learning (ML) to create a classification model. The project covers data cleaning, feature engineering, model training, and hyperparameter tuning.
 
