@@ -23,6 +23,6 @@ The project is connected to Streamlit Cloud for wider accessibility.
 
 7- Usage
 You can interact with the deployed application on the cloud by visiting the following link:
-(https://bangalorerestaurantssuccesspredictor-hiqbmzqrb9e69wmcctdbbk.streamlit.app/)
+(bangalore-restaurants-success-predictor-project-g7fhutiufsehbu.streamlit.app)
 If Streamlit is down, you can still run the Streamlit app locally, execute the following command in the last cell of the notebook:
 !streamlit run streamlit_app.py
