@@ -43,7 +43,6 @@ source venv/bin/activate # or venv\Scripts\activate on Windows
 ### Streamlit Application
 
 1. Run the Streamlit app: streamlit run streamlit_app.py
-2. 
 2. Open the provided URL in your browser.
 3. Enter restaurant details to get a success prediction.
 
