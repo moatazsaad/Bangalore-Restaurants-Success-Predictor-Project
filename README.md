@@ -1,15 +1,16 @@
-Bangalore Restaurants Success Predictor
+# **Bangalore Restaurants Success Predictor**
 
-Visit the app: bangalore-restaurants-success-predictor-project-g7fhutiufsehbu.streamlit.app
-Visit the app: [bangalore-restaurants-success-predictor](bangalore-restaurants-success-predictor-project-g7fhutiufsehbu.streamlit.app)
+**Visit the app:** [bangalore-restaurants-success-predictor](bangalore-restaurants-success-predictor-project-g7fhutiufsehbu.streamlit.app)
+
 This project aims to predict the success of restaurants in Bangalore based on various features like online order availability, table booking options, location, votes, and more. The project involves exploratory data analysis (EDA) and machine learning model development using a range of classification algorithms.
-Project Structure
 
-- Bangalore Restaurants Success Predictor-EDA.ipynb: This notebook contains the exploratory data analysis (EDA) where various features of the dataset are analyzed and visualized.
-- Bangalore Restaurants Success Predictor-Classification.ipynb: This notebook contains the classification model development and evaluation. It includes data preprocessing, feature engineering, model training, and hyperparameter tuning.
-- streamlit_app.py: A Streamlit app to provide a user-friendly interface for predicting the success of a restaurant based on user inputs.
+## **Project Structure**
 
-Installation
+- **EDA Notebook**: Analyzes and visualizes dataset features.
+- **Classification Notebook**: Develops and evaluates classification models.
+- **Streamlit App**: User interface for predicting restaurant success.
+
+## **Installation**
 
 1- Clone the repository:
 git clone https://github.com/moatazsaad/Bangalore-Restaurants-Success-Predictor-Project
@@ -48,18 +49,85 @@ Streamlit Application
 3- Provide the restaurant details in the input form and get the success prediction.
 
 Data:
-The dataset used in this project is a collection of Bangalore restaurant data from Zomato. It includes features such as online order availability, table booking options, location, votes, approximate cost for two people, cuisines, restaurant types, and more.
+The choice to use lowercase in the cd bangalore-restaurants-success-predictor command was based on the assumption that the directory name is in lowercase. This is a common convention in many projects to avoid issues with case sensitivity across different operating systems. If the actual directory name includes uppercase letters, it should be adjusted accordingly to match the actual directory structure. Here's the updated README with proper casing if needed:
+Bangalore Restaurants Success Predictor
+
+Visit the app: bangalore-restaurants-success-predictor
+
+This project predicts the success of restaurants in Bangalore using features like online orders, table booking options, location, votes, and more. It involves exploratory data analysis (EDA) and machine learning models.
+Project Structure
+
+    EDA Notebook: Analyzes and visualizes dataset features.
+    Classification Notebook: Develops and evaluates classification models.
+    Streamlit App: User interface for predicting restaurant success.
+
+Installation
+
+    Clone the repository:
+
+    bash
+
+git clone https://github.com/moatazsaad/Bangalore-Restaurants-Success-Predictor-Project
+
+Navigate to the project directory:
+
+bash
+
+cd Bangalore-Restaurants-Success-Predictor-Project
+
+Create a virtual environment:
+
+bash
+
+python3 -m venv venv
+
+Activate the virtual environment:
+
+    Windows: venv\Scripts\activate
+    macOS/Linux: source venv/bin/activate
+
+Install required packages:
+
+bash
+
+    pip install -r requirements.txt
+
+Usage
+Exploratory Data Analysis
+
+    Open EDA.ipynb in Jupyter or Colab.
+    Run cells to load data, perform EDA, and visualize features.
+
+Classification Model
+
+    Open Classification.ipynb in Jupyter or Colab.
+    Run cells to preprocess data, train models, tune hyperparameters, and save the best model.
+
+Streamlit Application
+
+    Run the Streamlit app:
+
+    bash
+
+    streamlit run streamlit_app.py
+
+    Open the provided URL in your browser.
+    Enter restaurant details to get a success prediction.
+
+Data
+
+The dataset includes features like online order availability, table booking options, location, votes, cost, cuisines, and restaurant types from Zomato.
 
 Models:
 The project compares the performance of various classification models:
 
-    Logistic Regression
-    Decision Tree Classifier
-    Random Forest Classifier
-    K-Neighbors Classifier
-    XGBoost Classifier
+- Logistic Regression
+- Decision Tree Classifier
+- Random Forest Classifier
+- K-Neighbors Classifier
+- XGBoost Classifier
 
-The final model is chosen based on the best cross-validation accuracy.
+The best model is chosen based on the best cross-validation accuracy.
 
 Results:
 The best performing model is saved as best_model.pkl and the input features are saved as input_features.pkl. These files are used in the Streamlit app to make predictions based on user inputs.
