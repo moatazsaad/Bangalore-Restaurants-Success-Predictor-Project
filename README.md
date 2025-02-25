@@ -1,6 +1,6 @@
 # Bangalore Restaurants Success Predictor
 
-**Visit the app:** [bangalore-restaurants-success-predictor](https://bangalore-restaurants-success-predictor-project-5f2ktfsnitkbke.streamlit.app)
+**Visit the app:** [Bangalore Restaurants Success Predictor](https://bangalore-restaurants-success-predictor-project-5f2ktfsnitkbke.streamlit.app)
 
 This project predicts restaurant success in Bangalore using features like online orders, table booking, location, and votes, employing exploratory data analysis (EDA) and classification models.
 
